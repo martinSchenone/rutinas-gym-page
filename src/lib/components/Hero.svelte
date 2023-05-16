@@ -8,7 +8,7 @@
 				dietas y mas.
 			</p>
 			<button class="btn btn-info text-base-100">
-				<a href="/empiezaYa" class="text-black font-bold">Empezar ahora</a>
+				<a href="/empiezaYa" class="text-lg text-white">Empezar ahora</a>
 			</button>
 		</div>
 	</div>

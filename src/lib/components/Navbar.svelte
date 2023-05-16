@@ -1,4 +1,4 @@
-<div class="navbar bg-base-300">
+<div class="navbar bg-slate-100">
 	<div class="navbar-start">
 		<div class="dropdown">
 			<label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -18,7 +18,7 @@
 			</label>
 			<ul
 				tabindex="0"
-				class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+				class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-slate-100 w-52"
 			>
 				<li><a href="/">Homepage</a></li>
 				<li tabindex="0">
@@ -33,19 +33,18 @@
 							><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg
 						>
 					</a>
-					<ul class="p-2 bg-base-100">
+					<ul class="p-2 bg-base-100 shadow">
 						<li><a href="/rutinas">Basico</a></li>
 						<li><a href="/rutinas">Intermedio</a></li>
 						<li><a href="/rutinas">Avanzado</a></li>
 					</ul>
 				</li>
-				<li><a>Dietas</a></li>
 			</ul>
 		</div>
-		<a class="btn btn-ghost normal-case text-xl" href="/">HealtyWay</a>
+		<a class="btn border-none bg-slate-100 hover:bg-slate-400 normal-case text-xl text-black hidden md:flex" href="/">HealtyWay</a>
 	</div>
-	<div class="navbar-center hidden lg:flex">
-		<ul class="menu menu-horizontal px-1">
+	<div class="navbar-center hidden lg:flex ">
+		<ul class="menu menu-horizontal px-1 ">
 			<li><a href="/">Homepage</a></li>
 			<li tabindex="0">
 				<a href="/rutinas">
@@ -59,17 +58,15 @@
 						><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg
 					>
 				</a>
-				<ul class="p-2 bg-base-100">
+				<ul class="p-2 bg-base-100 shadow">
 					<li><a href="/rutinas">Basico</a></li>
 					<li><a href="/rutinas">Intermedio</a></li>
 					<li><a href="/rutinas">Avanzado</a></li>
-
 				</ul>
 			</li>
-			<li><a href="/">Contacto</a></li>
 		</ul>
 	</div>
-	<div class="navbar-end gap-2">
-		<a class="btn btn-warning text-xs lg:text-lg" href="/">signup</a>
+	<div class="navbar-end">
+		<a class="btn btn-warning text-xs lg:text-md" href="/signUp ">Registrarme</a>
 	</div>
 </div>

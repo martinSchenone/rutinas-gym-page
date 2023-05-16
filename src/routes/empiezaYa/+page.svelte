@@ -6,10 +6,13 @@ container-fluid mx-auto text-center min-h-screen flex flex-col items-center just
 		<h1 class="w-full font-bold text-3xl">¿Que estas buscando?</h1>
 	</div>
 	<div class="buttons">
-		<button class="
-        mx-5
-        btn  btn-info btn-lg shadow-lg shadow-zinc-300">Dietas</button>
-		<button class="
+		<div class="tooltip" data-tip='No disponible aun'>
+
+			<button class="
+			mx-5
+			btn btn-info btn-lg shadow-lg shadow-zinc-300" disabled>Dietas</button>
+		</div>
+			<button class="
         mx-5
         btn btn-warning btn-lg shadow-lg shadow-zinc-300">
 		<a href="/rutinas">Rutinas</a>

@@ -23,21 +23,21 @@
 		class="btn-group btn-group-vertical md:btn-group-horizontal gap-2 flex justify-center items-center"
 	>
 		<div class="tooltip" data-tip="Trabajamos todos los grupos musculares por dia.">
-			<button class="btn btn-info w-44">Full body</button>
+			<button class="btn btn-info w-60">Full body</button>
 		</div>
 
 		<div class="tooltip" data-tip="Combinamos grupos musculares por dia.">
-			<button class="btn btn-error w-44">Weider</button>
+			<button class="btn btn-error w-60">Weider</button>
 		</div>
 
 		<div class="tooltip" data-tip="Realizamos un dia de empuje y otro de jalon.">
-			<button class="btn btn-warning w-44">Push / Pull</button>
+			<button class="btn btn-warning w-60">Push / Pull</button>
 		</div>
 	</div>
 	<div class="divider container mx-auto my-10" />
 	<p class="p-2 my-5 text-lg">
 		<!-- fullbody -->
-		<strong>Fullbody</strong>
+		<strong class="bg-slate-200 px-1 rounded">Fullbody</strong>
 		<br /> Con este metodo trabajamos todos los grupos musculares en un dia. Desde las piernas a los
 		hombros.
 		<br />
@@ -50,7 +50,7 @@
 	<div class="divider container mx-auto my-10" />
 	<!-- weider -->
 	<p class="p-2 my-5 text-lg">
-		<strong>Weider</strong><br />
+		<strong class="bg-slate-200 px-1 rounded">Weider</strong><br />
 		Es el tipo de rutina mas comun de todas las demas. Este metodo fue impulsado por
 		<a href="https://es.wikipedia.org/wiki/Joe_Weider" class="link font-bold">Joe Weider </a>
 		buscando mejorar sus resultados para el Fisico Culturismo.
@@ -64,7 +64,7 @@
 	<div class="divider container mx-auto my-10" />
 	<!-- Push/pull -->
 	<p class="p-2 my-5 text-lg">
-		<strong>Push / Pull</strong><br />
+		<strong class="bg-slate-200 px-1 rounded">Push / Pull</strong><br />
 		Con este metodo, se busca realizar una sesion de ejercicios en los cual la misma tenga como objetivo
 		el empuje o jalon.
 		<br />
@@ -82,15 +82,15 @@
 	<span class="text-2xl font-semibold border-b-2">Indices</span>
 	<ul class="pt-10 ">
 		<li class="pb-2">
-			<a href="#basico" class="btn w-48 md:btn-block rounded-none bg-indigo-50 border-none text-black">Basico</a>
+			<a href="#basico" class="btn w-60 md:btn-block rounded-none bg-slate-100 border-none hover:bg-slate-500 text-black">Basico</a>
 		</li>
 		<li class="pb-2">
-			<a href="#intermedio" class="btn w-48 md:btn-block rounded-none bg-indigo-100 border-none text-black"
+			<a href="#intermedio" class="btn w-60 md:btn-block rounded-none bg-slate-100 border-none hover:bg-slate-500 text-black"
 				>Intermedio</a
 			>
 		</li>
 		<li class="pb-2">
-			<a href="#avanzado" class="btn w-48 md:btn-block rounded-none bg-indigo-200 border-none text-black"
+			<a href="#avanzado" class="btn w-60 md:btn-block rounded-none bg-slate-200 border-none hover:bg-slate-500 text-black"
 				>Avanzado</a
 			>
 		</li>
@@ -305,7 +305,8 @@
 		<p class="pt-10 font-semibold">
 			Ten en cuenta que esta rutina de ejercicio es muy intensa y requiere un alto nivel de
 			condición física. <br />
-			<span class="text-yellow-500">
+			<br>
+			<span class="text-black text-lg">
 				Si eres principiante o no estás acostumbrado a este tipo de entrenamiento, es importante que comiences
 			con una rutina de menor intensidad y gradualmente vayas aumentando el nivel.
 			</span>
